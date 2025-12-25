@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ...estilos adicionales mínimos... */
+.logo { height: 6rem; }
+.logo.react { filter: hue-rotate(200deg); }
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
